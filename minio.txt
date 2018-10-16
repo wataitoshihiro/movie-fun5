@@ -1,0 +1,5 @@
+export VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "AAAAAAAAA", "bucket": "moviefun", "secret_access_key": "SSSSSSSSS", "endpoint": "http://127.0.0.1:9000"}, "name": "photo-storage"}]}'
+
+export VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "J5MZR8ZHCBQWWUZA55J4", "bucket": "moviefun", "secret_access_key": "eZP9M2PLywP/pdhiPpWhpNSFXnV5VbGNdW4Q7xit", "endpoint": "http://127.0.0.1:9000"}, "name": "photo-storage"}]}'
+
+set VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "J5MZR8ZHCBQWWUZA55J4", "bucket": "moviefun", "secret_access_key": "eZP9M2PLywP/pdhiPpWhpNSFXnV5VbGNdW4Q7xit", "endpoint": "http://127.0.0.1:9000"}, "name": "photo-storage"}]}'
