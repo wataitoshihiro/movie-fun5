@@ -25,6 +25,7 @@ public class FileStore implements BlobStore {
 
 
         try (FileOutputStream outputStream = new FileOutputStream(targetFile)) {
+//            outputStream.write(uploadedFile.getBytes());
             IOUtils.copy(blob.inputStream, outputStream);
         }
     }

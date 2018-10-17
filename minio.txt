@@ -3,3 +3,23 @@ export VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "AAAA
 export VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "J5MZR8ZHCBQWWUZA55J4", "bucket": "moviefun", "secret_access_key": "eZP9M2PLywP/pdhiPpWhpNSFXnV5VbGNdW4Q7xit", "endpoint": "http://127.0.0.1:9000"}, "name": "photo-storage"}]}'
 
 set VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "J5MZR8ZHCBQWWUZA55J4", "bucket": "moviefun", "secret_access_key": "eZP9M2PLywP/pdhiPpWhpNSFXnV5VbGNdW4Q7xit", "endpoint": "http://127.0.0.1:9000"}, "name": "photo-storage"}]}'
+
+Endpoint:  http://192.168.126.4:9000  http://127.0.0.1:9000
+AccessKey: P6AP8GUI1T08SBICLDDL
+SecretKey: WIz0hwBZXCJiEdOZlPOtvgncx1i5Jjuofwewjw/O
+
+Browser Access:
+   http://192.168.126.4:9000  http://127.0.0.1:9000
+
+Command-line Access: https://docs.minio.io/docs/minio-client-quickstart-guide
+   $ mc config host add myminio http://192.168.126.4:9000 P6AP8GUI1T08SBICLDDL WIz0hwBZXCJiEdOZlPOtvgncx1i5Jjuofwewjw/O
+
+Object API (Amazon S3 compatible):
+   Go:         https://docs.minio.io/docs/golang-client-quickstart-guide
+   Java:       https://docs.minio.io/docs/java-client-quickstart-guide
+   Python:     https://docs.minio.io/docs/python-client-quickstart-guide
+   JavaScript: https://docs.minio.io/docs/javascript-client-quickstart-guide
+   .NET:       https://docs.minio.io/docs/dotnet-client-quickstart-guide
+
+
+export VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "P6AP8GUI1T08SBICLDDL", "bucket": "moviefun", "secret_access_key": "WIz0hwBZXCJiEdOZlPOtvgncx1i5Jjuofwewjw/O", "endpoint": "http://127.0.0.1:9000"}, "name": "photo-storage"}]}'
